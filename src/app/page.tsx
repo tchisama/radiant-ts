@@ -19,6 +19,8 @@ import { ChevronRightIcon } from '@heroicons/react/16/solid'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import CtaCalendly from '@/components/cta-calendly'
+import { AuroraBackground } from '@/components/ui/aurora-background'
+import GravityComp from '@/components/gravity'
 
 export const metadata: Metadata = {
   description:
@@ -28,6 +30,7 @@ export const metadata: Metadata = {
 function Hero() {
   return (
     <div className="relative">
+
       <Gradient className="absolute inset-2 bottom-0 rounded-4xl ring-1 ring-inset ring-black/5" />
       <Container className="relative">
         <Navbar
@@ -102,7 +105,7 @@ function BentoSection() {
           title="Get perfect clarity"
           description="Radiant uses social engineering to build a detailed financial picture of your leads. Know their budget, compensation package, social security number, and more."
           graphic={
-            <div className="h-80 bg-[url(/screenshots/profile.png)] bg-[size:1000px_560px] bg-[left_-109px_top_-112px] bg-no-repeat" />
+            <GravityComp />
           }
           fade={['bottom']}
           className="max-lg:rounded-t-4xl lg:col-span-3 lg:rounded-tl-4xl"
@@ -174,7 +177,6 @@ function DarkBentoSection() {
             title="Meet leads where they are"
             description="With thousands of integrations, no one will be able to escape your cold outreach."
             graphic={<LogoTimeline />}
-            // `!overflow-visible` is needed to work around a Chrome bug that disables the mask on the graphic.
             className="z-10 !overflow-visible lg:col-span-2 lg:rounded-tr-4xl"
           />
           <BentoCard
@@ -216,7 +218,7 @@ export default function Home() {
         </div>
         <DarkBentoSection />
       </main>
-      <Calendly />
+      {/* <Calendly /> */}
       <CtaCalendly />
       <Footer />
     </div>
