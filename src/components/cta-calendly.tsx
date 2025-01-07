@@ -15,7 +15,7 @@ export default function Example() {
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <PopupButton
-              url="https://calendly.com/pro-tchisama"
+              url="https://calendly.com/pro-tchisama/30min"
               rootElement={document.getElementById("root")?? document.body}
               text="Schedule a demo"
               className="bg-white rounded-full px-4 py-2"

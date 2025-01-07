@@ -107,18 +107,24 @@ function BentoSection() {
           graphic={
             <GravityComp />
           }
-          fade={['bottom']}
-          className="max-lg:rounded-t-4xl lg:col-span-3 lg:rounded-tl-4xl"
+          fade={[]}
+          className=" max-lg:rounded-t-4xl lg:col-span-3 lg:rounded-tl-4xl"
         />
         <BentoCard
           eyebrow="Analysis"
-          title="Undercut your competitors"
-          description="With our advanced data mining, you’ll know which companies your leads are talking to and exactly how much they’re being charged."
+          title="Bigbang.pro"
+          description="With our advanced data mining "
           graphic={
-            <div className="absolute inset-0 bg-[url(/screenshots/competitors.png)] bg-[size:1100px_650px] bg-[left_-38px_top_-73px] bg-no-repeat" />
+            <Image
+              src="/bigbangsection/bigbangpro.png"
+              alt=""
+              width={800}
+              height={800}
+              className=" object-contain w-full"
+            />
           }
-          fade={['bottom']}
-          className="lg:col-span-3 lg:rounded-tr-4xl"
+          fade={[]}
+          className="lg:col-span-3 bg-gray-100 lg:rounded-tr-4xl"
         />
         <BentoCard
           eyebrow="Speed"
@@ -218,7 +224,7 @@ export default function Home() {
         </div>
         <DarkBentoSection />
       </main>
-      {/* <Calendly /> */}
+      <Calendly />
       <CtaCalendly />
       <Footer />
     </div>

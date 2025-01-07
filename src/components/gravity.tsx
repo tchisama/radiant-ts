@@ -5,12 +5,11 @@ import Image from 'next/image'
 
 function GravityComp() {
   return (
-<Gravity gravity={{ x: 0, y: 3 }} className="w-full z-10 relative h-full">
+<Gravity gravity={{ x: 0, y: 2 }} className="w-full z-10 relative h-full">
         {
           [
             { x: '20%', y: '70%', text: 'Hosting' , color: 'bg-[#a7c957]',
-              img:"/svg/server.svg"
-            },
+              img:"/svg/server.svg"},
             { x: '30%', y: '70%', text: 'SSL' , color: 'bg-[#4895ef]'
             ,img:"/svg/ssl.svg"},
             { x: '60%', y: '70%', text: 'Backup' , color: 'bg-[#ffd670]'
