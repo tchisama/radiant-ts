@@ -31,7 +31,6 @@
     "react-calendly": "^4.3.1",
     "react-dom": "^18",
     "react-use-measure": "^2.1.1",
-    "sanity": "^3.68.3",
     "styled-components": "^6.1.14",
     "svg-path-commander": "^2.1.7",
     "tailwind-merge": "^2.6.0",
