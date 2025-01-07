@@ -19,7 +19,6 @@ import { ChevronRightIcon } from '@heroicons/react/16/solid'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import CtaCalendly from '@/components/cta-calendly'
-import { AuroraBackground } from '@/components/ui/aurora-background'
 import GravityComp from '@/components/gravity'
 
 export const metadata: Metadata = {
