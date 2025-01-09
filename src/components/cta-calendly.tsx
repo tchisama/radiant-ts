@@ -1,5 +1,4 @@
 "use client";
-import { PopupButton } from "react-calendly";
 
 export default function Example() {
 
@@ -18,12 +17,6 @@ export default function Example() {
             commodo do ea.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <PopupButton
-              url="https://calendly.com/pro-tchisama/30min"
-              text="Schedule a demo"
-              className="bg-white rounded-full px-4 py-2"
-              >
-              </PopupButton>
             <a href="#" className="text-sm font-semibold leading-6 text-white">
               Learn more <span aria-hidden="true">→</span>
             </a>
