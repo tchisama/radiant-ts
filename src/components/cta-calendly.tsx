@@ -2,6 +2,10 @@
 import { PopupButton } from "react-calendly";
 
 export default function Example() {
+
+
+
+
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
@@ -16,7 +20,6 @@ export default function Example() {
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <PopupButton
               url="https://calendly.com/pro-tchisama/30min"
-              rootElement={document.getElementById("root")?? document.body}
               text="Schedule a demo"
               className="bg-white rounded-full px-4 py-2"
               >
